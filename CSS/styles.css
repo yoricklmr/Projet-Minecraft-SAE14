@@ -5,7 +5,7 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background-image: url('fond-du-site.jpg'); /* Chemin de l'image */
+    background-image: url('Images/fond-du-site.png'); /* Chemin de l'image */
     background-size: cover; /* Adapte l'image à l'écran */
     background-repeat: no-repeat; /* Empêche la répétition */
     background-attachment: fixed; /* Fixe l'image au fond */
