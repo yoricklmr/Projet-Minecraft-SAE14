@@ -73,7 +73,7 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 900px;
-    background: rgba(255, 255, 255, 0.9); /* Fond semi-transparent pour lisibilité */
+    background: rgba(0, 0, 0, 0.9); /* Fond semi-transparent pour lisibilité */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
