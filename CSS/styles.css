@@ -82,6 +82,61 @@ section h2 {
     margin-top: 0;
 }
 
+/* Section des dimensions */
+#dimensions {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre */
+    color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+#dimensions h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.dimension-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Pour s'adapter aux petits écrans */
+    gap: 20px;
+}
+
+.dimension {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fond transparent */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dimension img {
+    width: 64px; /* Taille de l'image */
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+.dimension h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.dimension p {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.dimension:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+
 /* Pied de page */
 footer {
     text-align: center;
