@@ -175,6 +175,7 @@ footer {
     header, .hero, section, footer {
         margin: 0 auto;
         width: 90%;
+        display: block;
     }
 
     .hero h1 {
@@ -196,7 +197,6 @@ footer {
 
     nav ul li {
         display: block;
-        margin: 10px 0;
     }
 }
 
