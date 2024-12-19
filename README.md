@@ -2,6 +2,8 @@ Minecraft Fan Site
 Bienvenue sur le site de fans de Minecraft, un jeu passionnant où votre créativité n'a pas de limites ! Ce projet vise à fournir une page d'accueil pour les fans de Minecraft avec des informations sur le jeu, une galerie d'images et 
 des fonctionnalités interactives.
 
+Lien -> https://yoricklmr.github.io/Projet-Minecraft-SAE14/
+
 
 Structure du Projet
 1. Page d'Accueil (index.html) :
