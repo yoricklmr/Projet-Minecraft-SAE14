@@ -170,40 +170,38 @@ footer {
 
 /* Petit écran (téléphone) */
 @media (max-width: 600px) {
-    header .logo img {
-        width: 80px; /* Réduire la taille du logo */
+    body {
+        text-align: center;
     }
-    .hero {
-        padding: 50px 10px; /* Réduire le padding de la section hero */
-        background-size: cover; /* S'assurer que l'image de fond couvre toute la zone */
+
+    header, .hero, section, footer {
+        margin: 0 auto;
+        width: 90%; /* Ajustement pour le centrage */
     }
+
     .hero h1 {
-        font-size: 24px; /* Réduire la taille du texte */
+        font-size: 32px;
     }
+
     .hero p {
-        font-size: 16px; /* Réduire la taille du texte */
+        font-size: 18px;
     }
-    .hero .btn {
-        font-size: 16px; /* Ajuster la taille du bouton */
-        padding: 8px 16px; /* Réduire le padding du bouton */
-    }
-    nav ul {
-        display: block; /* Afficher les éléments de navigation en bloc */
-        text-align: left; /* Aligner à gauche */
-    }
-    nav ul li {
-        display: block; /* Afficher les éléments de la liste en bloc */
-        margin: 5px 0; /* Ajuster la marge */
-    }
+
     .dimension {
-        width: 100%; /* Prendre toute la largeur */
-        margin: 10px 0; /* Ajouter de la marge */
+        width: 100%;
+        margin: 10px 0;
     }
+
     .gallery img {
-        max-width: 100%; /* Prendre toute la largeur disponible */
-        margin-bottom: 10px; /* Ajouter de la marge entre les images */
+        max-width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
     }
 }
+
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
