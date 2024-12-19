@@ -1,20 +1,20 @@
-/* Styles généraux */
+/* Styles de la page en général */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: white; /* Texte blanc */
+    color: white;
     background-image: url('Images/fond-du-site.png'); /* Chemin de l'image */
-    background-size: cover; /* Adapte l'image à l'écran */
-    background-repeat: no-repeat; /* Empêche la répétition */
-    background-attachment: fixed; /* Fixe l'image au fond */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* En-tête */
+/* L'en-tête */
 header {
     background-color: #3ea8007e;
-    color: white; /* Texte blanc dans l'en-tête */
+    color: white;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white; /* Texte blanc pour les liens */
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,7 +48,7 @@ header nav ul li a {
     padding: 50px 20px;
     background-image: url('minecraft-background.jpg'); /* Image de la section principale */
     background-size: cover;
-    color: white; /* Texte blanc */
+    color: white;
 }
 
 .hero h1 {
@@ -57,7 +57,7 @@ header nav ul li a {
 
 .hero .btn {
     background-color: #00a88f;
-    color: white; /* Texte blanc pour le bouton */
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -80,15 +80,15 @@ section {
 
 section h2 {
     margin-top: 0;
-    color: white; /* Texte blanc pour les titres de section */
+    color: white;
 }
 
-/* Section des dimensions */
+/* Partie des dimensions */
 #dimensions {
     text-align: center;
     padding: 40px 20px;
     background-color: rgba(0, 0, 0, 0.8); /* Fond sombre */
-    color: white; /* Texte blanc */
+    color: white;
     border-radius: 10px;
     margin: 20px auto;
     max-width: 900px;
@@ -97,7 +97,7 @@ section h2 {
 #dimensions h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: white; /* Texte blanc pour le titre */
+    color: white;
 }
 
 .dimension-container {
@@ -126,13 +126,13 @@ section h2 {
 .dimension h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
-    color: white; /* Texte blanc pour les titres des dimensions */
+    color: white;
 }
 
 .dimension p {
     font-size: 0.9em;
     line-height: 1.4;
-    color: white; /* Texte blanc pour les descriptions des dimensions */
+    color: white;
 }
 
 .dimension:hover {
@@ -140,12 +140,12 @@ section h2 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
-/* Pied de page */
+/* Bas de page */
 footer {
     text-align: center;
     padding: 10px 0;
     background-color: #222;
-    color: white; /* Texte blanc dans le pied de page */
+    color: white;
 }
 
 .gallery {
@@ -167,8 +167,6 @@ footer {
 }
 
 /* Media Queries */
-
-/* Petit écran (téléphone) */
 @media (max-width: 600px) {
     body {
         text-align: center;
@@ -176,7 +174,7 @@ footer {
 
     header, .hero, section, footer {
         margin: 0 auto;
-        width: 90%; /* Ajustement pour le centrage */
+        width: 90%;
     }
 
     .hero h1 {
