@@ -3,113 +3,151 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: white; /* Texte blanc */
+    background-image: url('Images/fond-du-site.png'); /* Chemin de l'image */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-attachment: fixed; /* Fixe l'image au fond */
 }
 
+/* En-tête */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #3ea8007e;
+    color: white; /* Texte blanc dans l'en-tête */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .logo img {
-    width: 100px;
+    height: 150px;
 }
 
-nav ul {
+header nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
 }
 
-nav ul li {
-    display: inline;
+header nav ul li {
     margin: 0 10px;
 }
 
-nav ul li a {
-    color: #fff;
+header nav ul li a {
+    color: white; /* Texte blanc pour les liens */
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Section Hero */
+/* Section principale */
 .hero {
-    background: url('CSS/Images/hero-background.jpg') no-repeat center center/cover;
-    color: #fff;
-    padding: 100px 20px;
     text-align: center;
+    padding: 50px 20px;
+    background-image: url('minecraft-background.jpg'); /* Image de la section principale */
+    background-size: cover;
+    color: white; /* Texte blanc */
 }
 
 .hero h1 {
-    font-size: 48px;
-    margin: 0 0 20px;
-}
-
-.hero p {
-    font-size: 24px;
-    margin: 0 0 30px;
+    font-size: 2.5em;
 }
 
 .hero .btn {
-    background-color: #ff9900;
-    color: #fff;
+    background-color: #00a88f;
+    color: white; /* Texte blanc pour le bouton */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .hero .btn:hover {
-    background-color: #e68a00;
+    background-color: #3ea8007e;
 }
 
 /* Sections */
 section {
-    padding: 60px 20px;
-    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.8); /* Fond sombre avec transparence */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    color: white; /* Texte blanc pour les titres de section */
 }
 
-section p {
-    font-size: 18px;
-    line-height: 1.6;
+/* Section des dimensions */
+#dimensions {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre */
+    color: white; /* Texte blanc */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+#dimensions h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white; /* Texte blanc pour le titre */
 }
 
 .dimension-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Pour s'adapter aux petits écrans */
     gap: 20px;
 }
 
 .dimension {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     text-align: center;
     width: 200px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fond transparent */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .dimension img {
-    width: 100px;
+    width: 64px; /* Taille de l'image */
+    height: 64px;
+    margin-bottom: 10px;
 }
 
 .dimension h3 {
-    font-size: 24px;
-    margin-top: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: white; /* Texte blanc pour les titres des dimensions */
 }
 
-/* Galerie d'images */
+.dimension p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: white; /* Texte blanc pour les descriptions des dimensions */
+}
+
+.dimension:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: white; /* Texte blanc dans le pied de page */
+}
+
 .gallery {
     display: flex;
     justify-content: center;
@@ -126,12 +164,4 @@ section p {
 
 .gallery img:hover {
     transform: scale(1.05);
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
 }
